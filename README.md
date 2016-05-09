@@ -1,5 +1,13 @@
 # karabiner-asus-s400ca-latam-fix
-Karabiner mapping to fixing the Asus s400ca keyboard to work with OSx
+Karabiner mapping to fixing the Asus s400ca keyboard to work with OSx.
+
+You will need to have the keyboard configured this way:
+* Caps Lock Key => Caps Lock
+* Control Key => Command
+* Option Key => Option
+* Command => Control
+
+Also you need to have the keyboard language in Spanish (NOT ISO)
 
 # Notes for future develope
 [How to use the XML](https://pqrs.org/osx/karabiner/xml.html.en)

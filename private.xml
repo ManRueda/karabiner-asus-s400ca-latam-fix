@@ -4,6 +4,10 @@
     <appname>TERMINAL</appname>
     <equal>com.apple.Terminal</equal>
   </appdef>
+  <appdef>
+    <appname>CHROME</appname>
+    <equal>com.google.Chrome</equal>
+  </appdef>
   <item>
     <name>Asus S400CA Latam Fixes</name>
     <appendix>This fixes provide a fully functiona Asus s400ca keyboard when the OS is configured with the Spanish set (NOT ISO)</appendix>
@@ -223,6 +227,13 @@
         <identifier>s400ca.alt_TAB_fix</identifier>
         <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::CONTROL_L, KeyCode::TAB, ModifierFlag::COMMAND_L</autogen>
         <autogen>__KeyToKey__ KeyCode::TAB, ModifierFlag::CONTROL_R, KeyCode::8, ModifierFlag::COMMAND_R</autogen>
+    </item>
+
+    <item>
+        <name>Google Chrome F5 fix</name>
+        <only>CHROME</only>
+        <identifier>s400ca.chrome_f5_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::F5, ModifierFlag::NONE, KeyCode::R, ModifierFlag::COMMAND_L</autogen>
     </item>
 
   </item>

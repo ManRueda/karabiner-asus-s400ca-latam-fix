@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Asus S400CA Latam Fixes</name>
+    <item>
+        <name>Pipe fix</name>
+        <identifier>private.pipe_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::NONE, KeyCode::7, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Backquote fix</name>
+        <identifier>private.backquote_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, ModifierFlag::NONE, KeyCode::BACKQUOTE</autogen>
+        <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, ModifierFlag::SHIFT_R, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Opening question mark fix</name>
+        <identifier>private.opening_question_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::NONE, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Closing question mark fix</name>
+        <identifier>private.closing_question_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::SHIFT_L, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::SHIFT_R, KeyCode::DOT, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Quote fix</name>
+        <identifier>private.quote_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::NONE, KeyCode::BACKSLASH</autogen>
+    </item>
+
+    <item>
+        <name>Open curly bracket fix</name>
+        <identifier>private.open_curly_bracket_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::NONE, KeyCode::BACKQUOTE, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Close curly bracket fix</name>
+        <identifier>private.close_curly_bracket_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::NONE, KeyCode::BACKSLASH, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Open squared brackets fix</name>
+        <identifier>private.open_squared_bracket_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_L, KeyCode::BACKQUOTE, ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::SHIFT_R, KeyCode::BACKQUOTE, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Close squared brackets fix</name>
+        <identifier>private.close_squared_bracket_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_L, KeyCode::BACKSLASH, ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::SHIFT_R, KeyCode::BACKSLASH, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Opening exclamation mark fix</name>
+        <identifier>private.opening_exclamation_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::SHIFT_L, KeyCode::1, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::EQUAL, ModifierFlag::SHIFT_R, KeyCode::1, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Closing exclamation mark fix</name>
+        <identifier>private.closing_exclamation_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::1, ModifierFlag::SHIFT_L, KeyCode::2, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::1, ModifierFlag::SHIFT_R, KeyCode::2, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Degree symbol fix</name>
+        <identifier>private.degree_symbol_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L, KeyCode::8, ModifierFlag::OPTION_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::SHIFT_R, KeyCode::8, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Circumflex accent fix</name>
+        <identifier>private.circumflex_accent_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::CONTROL_R, KeyCode::I, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Grave accent fix</name>
+        <identifier>private.grave_accent_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, ModifierFlag::CONTROL_R, KeyCode::BRACKET_RIGHT</autogen>
+    </item>
+
+    <item>
+        <name>Tilde fix</name>
+        <identifier>private.tilde_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_R, KeyCode::SEMICOLON, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Backslash fix</name>
+        <identifier>private.backslash_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::MINUS, ModifierFlag::CONTROL_R, KeyCode::6, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>At key fix</name>
+        <identifier>private.at_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::CONTROL_R, KeyCode::G, ModifierFlag::OPTION_L</autogen>
+    </item>
+
+    <item>
+        <name>Dash fix</name>
+        <identifier>private.dash_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::NONE, KeyCode::MINUS</autogen>
+    </item>
+
+    <item>
+        <name>Plus fix</name>
+        <identifier>private.plus_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::NONE, KeyCode::EQUAL, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Ampersand fix</name>
+        <identifier>private.ampersand_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::6, ModifierFlag::SHIFT_L, KeyCode::7, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::6, ModifierFlag::SHIFT_R, KeyCode::7, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Slash fix</name>
+        <identifier>private.slash_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::7, ModifierFlag::SHIFT_L, KeyCode::6, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::7, ModifierFlag::SHIFT_R, KeyCode::6, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Opening Round bracket fix</name>
+        <identifier>private.opening_round_bracket_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::8, ModifierFlag::SHIFT_L, KeyCode::9, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::8, ModifierFlag::SHIFT_R, KeyCode::9, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Closing Round bracket fix</name>
+        <identifier>private.closing_round_bracket_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::9, ModifierFlag::SHIFT_L, KeyCode::0, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::9, ModifierFlag::SHIFT_R, KeyCode::0, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Equal fix</name>
+        <identifier>private.equal_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::0, ModifierFlag::SHIFT_L, KeyCode::EQUAL</autogen>
+        <autogen>__KeyToKey__ KeyCode::0, ModifierFlag::SHIFT_R, KeyCode::EQUAL</autogen>
+    </item>
+
+    <item>
+        <name>Double quote fix</name>
+        <identifier>private.double_quote_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::2, ModifierFlag::SHIFT_L, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::2, ModifierFlag::SHIFT_R, KeyCode::BACKSLASH, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Semicolon fix</name>
+        <identifier>private.semicolon_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_L, KeyCode::QUOTE</autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMA, ModifierFlag::SHIFT_R, KeyCode::QUOTE</autogen>
+    </item>
+
+    <item>
+        <name>Colon fix</name>
+        <identifier>private.colon_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_L, KeyCode::QUOTE, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::DOT, ModifierFlag::SHIFT_R, KeyCode::QUOTE, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Low dash fix</name>
+        <identifier>private.low_dash_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::SHIFT_L, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::SLASH, ModifierFlag::SHIFT_R, KeyCode::MINUS, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+    <item>
+        <name>Asterisk fix</name>
+        <identifier>private.asterisk_fix</identifier>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_L, KeyCode::8, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, ModifierFlag::SHIFT_R, KeyCode::8, ModifierFlag::SHIFT_L</autogen>
+    </item>
+
+  </item>
+</root>

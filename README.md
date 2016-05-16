@@ -8,6 +8,9 @@ You will need to have the keyboard configured this way:
 * Command => Control
 
 Also you need to have the keyboard language in Spanish (NOT ISO)
+# DefaultKeyBinding.dict
+Copy the DefaultKeyBinding.dict to ~/Library/KeyBindings/DefaultKeyBinding.dict
 
 # Notes for future develope
 [How to use the XML](https://pqrs.org/osx/karabiner/xml.html.en)
+[Keybindings notes](http://osxnotes.net/keybindings.html)

@@ -220,6 +220,13 @@
             <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::COMMAND_R, KeyCode::Z, ModifierFlag::CONTROL_R</autogen>
             <autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::COMMAND_L, KeyCode::Z, ModifierFlag::CONTROL_R</autogen>
         </item>
+        <item>
+            <name>End and beginning of line fix</name>
+            <only>TERMINAL</only>
+            <identifier>s400ca.terminal.line_fix</identifier>
+            <autogen>__KeyToKey__ KeyCode::HOME, ModifierFlag::NONE, KeyCode::A, ModifierFlag::CONTROL_L</autogen>
+            <autogen>__KeyToKey__ KeyCode::END, ModifierFlag::NONE, KeyCode::E, ModifierFlag::CONTROL_L</autogen>
+        </item>
     </item>
 
     <item>
